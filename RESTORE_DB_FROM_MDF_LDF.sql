@@ -1,0 +1,9 @@
+CREATE DATABASE SPEDTRANS
+ON
+(
+    FILENAME = 'mdf'
+),
+(
+    FILENAME = 'ldf'
+)
+FOR ATTACH;
